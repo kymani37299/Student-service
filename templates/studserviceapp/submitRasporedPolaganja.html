@@ -1,0 +1,27 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Submit Raspored Polaganja</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="main">
+    <div id="first">
+	<form action="{% url 'do_submitRasporedPolaganja' %}" method='post' enctype="multipart/form-data">
+		{% csrf_token %}
+		<select name="tip_rasporeda" required>
+	            <option value="klk_nedelja">Kolokvijumska nedelja</option>
+	            <option value="ispitni_rok">Ispitni rok</option>
+	    </select>
+	    <input type="text" name="naziv_rasporeda" required />
+	    <input type="file" name="dokument" required />
+	    <input type="submit">
+	</form>
+    </div>
+    </div>
+</body>
+</html>
+{% endblock %}

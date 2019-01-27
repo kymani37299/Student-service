@@ -1,0 +1,80 @@
+
+/* Below line is used for online Google font */
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+body{
+margin:0;
+padding:0;
+font-family:'Ubuntu',sans-serif;
+background-color:lightgrey;
+}
+#main{
+width:50%;
+height:50%;
+margin:30px auto
+}
+#first{
+width:80%;
+height:2000px;
+box-shadow:0 0 0 1px rgba(14,41,57,0.12),0 2px 5px rgba(14,41,57,0.44),inset 0 -1px 2px rgba(14,41,57,0.15);
+float:left;
+padding:10px 50px 0;
+background:linear-gradient(#fff,#f2f6f9)
+}
+hr{
+border:0;
+border-top:1px solid #ccc;
+margin-bottom:30px;
+}
+label{
+font-size:17px
+}
+input{
+width:400px;
+padding:10px;
+margin-top:10px;
+margin-bottom:35px;
+border-radius:5px;
+border:1px solid #cbcbcb;
+box-shadow:inset 0 1px 2px rgba(0,0,0,0.18);
+font-size:16px
+}
+select{
+    width:400px;
+padding:10px;
+margin-top:10px;
+margin-bottom:35px;
+border-radius:5px;
+border:1px solid #cbcbcb;
+box-shadow:inset 0 1px 2px rgba(0,0,0,0.18);
+font-size:16px
+}
+textarea{
+width:400px;
+height:100px;
+padding:10px;
+margin-top:10px;
+margin-bottom:35px;
+border-radius:5px;
+border:1px solid #cbcbcb;
+box-shadow:inset 0 1px 2px rgba(0,0,0,0.18);
+font-size:16px
+}
+input[type=checkbox]{
+    width:15px
+}
+input[type=radio]{
+    width:15px
+}
+input[type=submit]{
+background:linear-gradient(to bottom,#22abe9 5%,#36caf0 100%);
+box-shadow:inset 0 1px 0 0 #7bdcf4;
+border:1px solid #0F799E;
+color:#fff;
+font-size:19px;
+font-weight:700;
+cursor:pointer;
+text-shadow:0 1px 0 #13506D
+}
+input[type=submit]:hover{
+background:linear-gradient(to bottom,#36caf0 5%,#22abe9 100%)
+}

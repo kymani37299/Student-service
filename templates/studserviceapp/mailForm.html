@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slanje Mail-a</title>
+</head>
+<body>
+    <form action="{% url 'mailSent' %}" method="post">
+		{% csrf_token %}
+		<style>textarea {resize: none;}</style>
+		<table border="1">
+		<tbody>
+			<tr>
+				<td>
+			    	<input type="hidden" name="to_predmet" value="{{opcije_predmeti}}">
+			    	<input type="hidden" name="to_grupe" value="{{opcije_grupe}}">
+			    	<input type="hidden" name="to_smer" value="{{opcije_smer}}">
+					<select name="to" required>
+						{% ifnotequal uloga "nastavnik" %} 
+							<option value="svi"> Svi </option>
+							{% for smer in opcije_smer %}
+							<option value={{smer}}> {{smer}} </option>
+							{% endfor %}
+						{% endifnotequal %}
+						{% for predmet in opcije_predmeti %}
+						<option value={{predmet.naziv}}> {{predmet.naziv}} </option>
+						{% endfor %}
+						{% for grupa in opcije_grupe %}
+						<option value={{grupa.id}}> {{grupa.oznaka_grupe}} </option>
+						{% endfor %}
+					</select>
+			    </td>
+			</tr>
+		    <tr>			    
+			    <td>
+			    	<input type="hidden" name="uloga" value="{{uloga}}">
+			    	{% ifequal uloga "nastavnik" %} 
+			    		<input type="hidden" name="sender-prof" value="{{person.nalog.username}}">
+			    		{{person.ime}} {{person.prezime}} - {{person.nalog.username}}@raf.rs
+			    	{% endifequal %}
+			    	{% ifnotequal uloga "nastavnik" %} 
+			    		<input type="hidden" name="sender" value="{{person.username}}">
+			    		{{person.username}}@raf.rs
+			    	{% endifnotequal %}
+			    </td>
+			    
+		    </tr>	
+		    <tr>
+		    	<td><textarea name="subject" rows="1" cols="50"></textarea></td>
+		    </tr>
+		    <tr>
+		    	<td><textarea name="body" rows="10" cols="50"></textarea></td>
+		    </tr>
+		    <tr>
+		    	<td><input type="file" name="file" multiple></td>
+		    </tr>
+	    </tbody>
+		</table>
+	    <input type="submit" value="Posalji">
+	</form>
+</body>
+</html>

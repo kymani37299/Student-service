@@ -1,0 +1,46 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista grupa</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <div id="main">
+    <div id="first">
+    <form action="{% url 'groupStudents' %}" method="post">
+    {% csrf_token %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <label>Odaberite Grupu:</label>
+    <select name="grupa">
+    <optgroup label="I Godina">
+	{% for grupa in g1 %}<option value={{grupa.id}}> {{grupa.oznaka_grupe}} </option>{% endfor %}
+	</optgroup>
+    <optgroup label="II Godina">
+	{% for grupa in g2 %}<option value={{grupa.id}}> {{grupa.oznaka_grupe}} </option>{% endfor %}
+	</optgroup>
+    <optgroup label="III Godina">
+	{% for grupa in g3 %}<option value={{grupa.id}}> {{grupa.oznaka_grupe}} </option>{% endfor %}
+	</optgroup>
+    <optgroup label="IV Godina">
+	{% for grupa in g4 %}<option value={{grupa.id}}> {{grupa.oznaka_grupe}} </option>{% endfor %}
+	</optgroup>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Potvrdi">
+    <br>
+    <br>
+	</form>
+    </div>
+    </div>
+</body>
+</html>
+{% endblock %}

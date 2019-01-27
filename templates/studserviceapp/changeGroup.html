@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Izmena grupe </title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type='text/javascript'>
+        $(document).ready(function() {
+            promenaSemestra($('#prviSemestar')[0]);
+        });
+
+        function promenaSemestra(sel){
+            var predmetiSemestar = {{predmetiSemestar|safe}};
+            var predmetiSet = new Set(predmetiSemestar[sel.value]);
+            for (i = 0; i <= $('#predmeti')[0].options.length; ++i) {
+                if (predmetiSet.has($('#predmeti')[0].options[i].text)) {
+                    $('#predmeti option[value='+$('#predmeti')[0].options[i].value+']').show();
+                }
+                else {
+                    $('#predmeti option[value='+$('#predmeti')[0].options[i].value+']').hide();
+                }
+            };
+    }
+    </script>
+    <div id="main">
+    <div id="first">
+    <form action="{% url 'changedGroup' %}" method="post">
+        {% csrf_token %}
+        <label>Oznaka grupe:</label>
+        <br>
+        <input type="text" rows="1" cols="10" name="oznaka_grupe" value={{grupa.oznaka_grupe}} required/>
+        <br>
+        <label>Semestar:</label>
+        <br>
+        <select name="oznaka_semestra" required onchange="promenaSemestra(this)">
+            <option id="prviSemestar" value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+        <br>
+        <label>Kapacitet</label>
+        <br>
+        <input type="number" rows="1" cols="10" name="kapacitet" value={{grupa.kapacitet}} required/>
+        <br>
+        <label>Smer:</label>
+        <br>
+        <select name="smer" required>
+            {% if grupa.smer == "RN" %}
+            <option value="RN" selected>RN</option>
+            {% else %}
+            <option value="RN">RN</option>
+            {% endif %}
+            {% if grupa.smer == "RM" %}
+            <option value="RM" selected>RM</option>
+            {% else %}
+            <option value="RM">RM</option>
+            {% endif %}
+        </select>
+        <br>
+        <label>Aktivna:</label>
+        <br>
+        {% if grupa.aktivna %}
+        <input type="checkbox" name="aktivna" checked/>
+        {% else %}
+        <input type="checkbox" name="aktivna"/>
+        {% endif %}
+        <br>
+        <label>Za semestar:</label>
+        <br>
+        <input type="number" name='za_semestar' cols="10" value = {{grupa.za_semestar_id}} required/>
+        <br>
+        <label>Pobrisati postojece predmete:</label>
+        <br>
+        <input type="checkbox" name="reset"/>
+        <br>
+        <label>Predmeti:</label>
+        <br>
+        <select id="predmeti" name="predmeti" multiple>
+            {% for predmet in predmeti %}
+            <option value={{predmet.id}}>{{predmet.naziv}}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <input type="submit" value="Snimi">
+    </form>
+    </div>
+    </div>
+</body>
+</html>

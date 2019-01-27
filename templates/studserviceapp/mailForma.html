@@ -1,0 +1,136 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Novi mail</title>
+    <style>
+        /* Below line is used for online Google font */
+        @import "http://fonts.googleapis.com/css?family=Ubuntu";
+        body{
+        margin:0;
+        padding:0;
+        font-family:'Ubuntu',sans-serif;
+        background-color:lightgrey;
+        }
+        #main{
+        width:50%;
+        height:50%;
+        margin:30px auto
+        }
+        #first{
+        width:80%;
+        height:750px;
+        box-shadow:0 0 0 1px rgba(14,41,57,0.12),0 2px 5px rgba(14,41,57,0.44),inset 0 -1px 2px rgba(14,41,57,0.15);
+        float:left;
+        padding:10px 50px 0;
+        background:linear-gradient(#fff,#f2f6f9)
+        }
+        hr{
+        border:0;
+        border-top:1px solid #ccc;
+        margin-bottom:30px;
+        }
+        label{
+        font-size:17px
+        }
+
+        input{
+        width:400px;
+        padding:10px;
+        margin-top:10px;
+        margin-bottom:35px;
+        border-radius:5px;
+        border:1px solid #cbcbcb;
+        box-shadow:inset 0 1px 2px rgba(0,0,0,0.18);
+        font-size:16px
+        }
+        textarea{
+        width:400px;
+        padding:10px;
+        margin-top:10px;
+        margin-bottom:15px;
+        border-radius:2px;
+        border:1px solid #cbcbcb;
+        box-shadow:inset 0 1px 2px rgba(0,0,0,0.18);
+        font-size:16px
+        }
+        input[type=submit]{
+        background:linear-gradient(to bottom,#22abe9 5%,#36caf0 100%);
+        box-shadow:inset 0 1px 0 0 #7bdcf4;
+        border:1px solid #0F799E;
+        color:#fff;
+        font-size:19px;
+        font-weight:700;
+        cursor:pointer;
+        text-shadow:0 1px 0 #13506D
+        }
+        input[type=submit]:hover{
+        background:linear-gradient(to bottom,#36caf0 5%,#22abe9 100%)
+        }
+        select{
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(1, 1, 1, 1) transparent;
+        border-radius:5px;
+        text-shadow:0 1px 0 #13506D
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div id="first">
+    <form action="{% url 'mailSent' %}" method="post">
+        {% csrf_token %}
+        <br>
+        <label>Od:</label>
+                    <input type="hidden" name="uloga" value="{{uloga}}">
+                    {% ifequal uloga "nastavnik" %} 
+                        <input type="hidden" name="sender-prof" value="{{person.nalog.username}}">
+                        {{person.ime}} {{person.prezime}} - {{person.nalog.username}}@raf.rs
+                    {% endifequal %}
+                    {% ifnotequal uloga "nastavnik" %} 
+                        <input type="hidden" name="sender" value="{{person.username}}">
+                        {{person.username}}@raf.rs
+                    {% endifnotequal %}
+        <br>
+        <br>
+        <label>Za:</label>
+        <input type="hidden" name="to_predmet" value="{{opcije_predmeti}}">
+        <input type="hidden" name="to_grupe" value="{{opcije_grupe}}">
+        <input type="hidden" name="to_smer" value="{{opcije_smer}}">
+        <select name="to" required>
+            {% ifnotequal uloga "nastavnik" %} 
+                <option value="svi"> Svi </option>
+                <optgroup label="Smerovi">
+                {% for smer in opcije_smer %}<option value={{smer}}> {{smer}} </option>{% endfor %}
+                </optgroup>
+            {% endifnotequal %}
+                <optgroup label="Predmeti">
+                {% for predmet in opcije_predmeti %}<option value={{predmet.naziv}}> {{predmet.naziv}} </option>{% endfor %}
+                </optgroup>
+                <optgroup label="Grupe">
+                {% for grupa in opcije_grupe %}<option value={{grupa.id}}> {{grupa.oznaka_grupe}} </option>{% endfor %}
+                </optgroup>
+        </select>
+        <br>
+        <br>
+        <label>Naslov:</label>
+        <br>
+        <textarea name="subject" rows="1" cols="50" ></textarea>
+        <textarea name="body" rows="10" cols="50"></textarea>
+        <br>
+        <br>
+        <br>
+        <input type="file" name="file" multiple>
+        <br>
+        <input type="submit" value="Posalji">
+    </form>
+    </div>
+    </div>
+</body>
+</html>
+
+{% endblock %}

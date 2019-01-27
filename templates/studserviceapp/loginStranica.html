@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="main">
+    <div id="first">
+    <form action="{% url 'loginResponse' %}" method="post">
+    {% csrf_token %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <label>Unesite Username:</label>
+    <br>
+    <input type="text" name="username">
+    <br>
+    <input type="submit" value="Potvrdi">
+    <br>
+    </form>
+    </div>
+    </div>
+</body>
+</html>

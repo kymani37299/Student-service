@@ -1,0 +1,306 @@
+"Svi smerovi, odeljenje 1";""
+;"Predavanja";;;;;;;;"Praktikum";;;;;;;;"Vezbe";;;;;;;;"Predavanja i vezbe"
+"Administracija i odrzavanje sistema 1";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Seslija Ognjen";"/";"1s2";"1. nedelja";"PET";"17:15-20";"Ucionica 3";;;;;;;;;;"Seslija Ognjen";"/";"1s2";"1. nedelja";"ÈET";"17:15-20";"Ucionica 3";;;;;;;;;;
+;"Lale Sinisa";"n012";"1s1";"1. nedelja";"PET";"12:15-15";"Ucionica 5";;;;;;;;;;"Lale Sinisa";"n012";"1s1";"1. nedelja";"PON";"9:15-12";"Ucionica 5";;;;;;;;;;
+
+"Algebra";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Jovanovic Jelena";"/";"203, 204, 205";"1. nedelja";"ÈET";"13:15-15";"Ucionica 6";;;;;;;;;;"Jerotijevic Marija";"n009";"203, 204, 205";"1. nedelja";"ÈET";"11:15-13";"Ucionica 6";;;;;;;;;;
+;"Jovanovic Jelena";"/";"201, 202";"1. nedelja";"SRE";"13:15-15";"Ucionica 1";;;;;;;;;;"Jerotijevic Marija";"n009";"201, 202";"1. nedelja";"UTO";"19:15-21";"Ucionica 1";;;;;;;;;;
+
+"Algoritmi i strukture podataka";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Urosevic Dragan";"n029";"201, 202, 203, 204, 205";"1. nedelja";"SRE";"9:15-12";"Kolarac";;;;;;;;;;"Stojanovic Vukoman";"/";"204";"1. nedelja";"UTO";"11:15-13";"Ucionica 5";;;;;;;;;;
+;"Lutovac Maja";"/";"210, 211";"1. nedelja";"PON";"9:15-12";"Ucionica 6";;;;;;;;;;"Burgic Stefan";"/";"210";"1. nedelja";"ÈET";"19:15-21";"Ucionica 5";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Bakarec Bogdan";"/";"203";"1. nedelja";"PON";"9:15-11";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Stojanovic Vukoman";"/";"205";"1. nedelja";"PET";"19:15-21";"Rg 1";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Bakarec Bogdan";"/";"202";"1. nedelja";"SRE";"15:15-17";"Ucionica 3";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Burgic Stefan";"/";"201";"1. nedelja";"UTO";"17:15-19";"Rg 1";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Bakarec Bogdan";"/";"211";"1. nedelja";"SRE";"13:15-15";"Ucionica 3";;;;;;;;;;
+
+"Arhitektura racunara";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Jovanovic Milos";"n011";"210, 211";"1. nedelja";"SRE";"17:15-19";"Ucionica 1";;;;;;;;;;"Stambolovic Bogdana";"/";"211";"1. nedelja";"PET";"9:15-11";"Ucionica 2";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Stambolovic Bogdana";"/";"210";"1. nedelja";"SRE";"15:15-17";"Ucionica 4";;;;;;;;;;
+
+"Bezicne i mobilne komunikacije";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Vucic Desimir";"n033";"411, 414";"1. nedelja";"UTO";"11:15-14";"Ucionica 9";;;;;;;;;;"Vukotic Selena";"n035";"411, 414";"1. nedelja";"SRE";"18:15-21";"Ucionica 2";;;;;;;;;;
+
+"C# programiranje";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;;;;;;;;;;;;;;;;;;;;;;;;;"Milosavljevic Milos";"/";"3s2";"1. nedelja";"ÈET";"11:15-14";"Ucionica 3";;
+;;;;;;;;;;;;;;;;;;;;;;;;;"Milosavljevic Milos";"/";"3s2";"1. nedelja";"PET";"14:15-17";"Ucionica 3";;
+
+"Crtanje i slikanje";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;;;;;;;;;;;;;;;;;;;;;;;;;"Prusevic Mersiha";"/";"1d1";"1. nedelja";"ÈET";"10:15-13";"Atelje";;
+;;;;;;;;;;;;;;;;;;;;;;;;;"Prusevic Mersiha";"/";"1d1";"1. nedelja";"PET";"10:15-13";"Atelje";;
+;;;;;;;;;;;;;;;;;;;;;;;;;"Prusevic Mersiha";"/";"1d2";"1. nedelja";"PET";"13:15-16";"Atelje";;
+;;;;;;;;;;;;;;;;;;;;;;;;;"Prusevic Mersiha";"/";"1d2";"1. nedelja";"ÈET";"13:15-16";"Atelje";;
+
+"Dizajn i razvoj WEB strana";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Popovic Snezana";"n023";"2s1, 2s2";"1. nedelja";"ÈET";"15:15-17";"Ucionica 1";;;;;;;;;;"Radosavljevic Nemanja";"n025";"2s2";"1. nedelja";"SRE";"9:15-12";"Ucionica 2";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Radosavljevic Nemanja";"n025";"2s1";"1. nedelja";"ÈET";"11:15-14";"Ucionica 2";;;;;;;;;;
+
+"Dizajn softvera";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Perisic Branko";"n022";"203, 204, 205";"1. nedelja";"PON";"12:15-15";"Ucionica 6";;;;;;;;;;"Markovic Ana";"/";"204";"1. nedelja";"UTO";"13:15-15";"Ucionica 4";;;;;;;;;;
+;"Perisic Branko";"n022";"201, 202";"1. nedelja";"PON";"9:15-12";"Ucionica 1";;;;;;;;;;"Markovic Ana";"/";"203";"1. nedelja";"UTO";"11:15-13";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Markovic Ana";"/";"201";"1. nedelja";"SRE";"15:15-17";"Ucionica 5";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Markovic Ana";"/";"205";"1. nedelja";"ÈET";"9:15-11";"Ucionica 7";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Markovic Ana";"/";"202";"1. nedelja";"UTO";"15:15-17";"Ucionica 5";;;;;;;;;;
+
+"Engleski 1";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Cuk Bojana";"/";"107, 108, 110, 109, 111";"1. nedelja";"PET";"17:15-19";"Ucionica 6";;;;;;;;;;;;;;;;;;;;;;;;;;
+;"Cuk Bojana";"/";"105, 106";"1. nedelja";"SRE";"9:15-11";"Ucionica 1";;;;;;;;;;;;;;;;;;;;;;;;;;
+;"Cuk Bojana";"/";"101, 103, 102, 104";"1. nedelja";"PON";"12:15-14";"Ucionica 1";;;;;;;;;;;;;;;;;;;;;;;;;;
+;"Cuk Bojana";"/";"1d1, 1d2";"1. nedelja";"SRE";"15:15-17";"Ucionica 8";;;;;;;;;;;;;;;;;;;;;;;;;;
+;"Vrbica-Matejic Vera";"n032";"1s1, 1s2";"1. nedelja";"PET";"15:15-17";"Ucionica 1";;;;;;;;;;;;;;;;;;;;;;;;;;
+
+"Engleski 3";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Cuk Bojana";"/";"2d1, 2d2";"1. nedelja";"ÈET";"13:15-15";"Ucionica 8";;;;;;;;;;"Vrbica-Matejic Vera";"n032";"2s1, 2s2";"1. nedelja";"PET";"9:15-11";"Ucionica 1";;;;;;;;;;
+;"Vrbica-Matejic Vera";"n032";"2s1, 2s2";"1. nedelja";"SRE";"15:15-17";"Ucionica 1";;;;;;;;;;;;;;;;;;;;;;;;;;
+
+"Fotografija";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Malesevic Nenad";"/";"2d1, 2d2";"1. nedelja";"UTO";"16:15-19";"Atelje";;;;;;;;;;"Malesevic Nenad";"/";"2d1, 2d2";"1. nedelja";"UTO";"13:15-16";"Ucionica 11";;;;;;;;;;
+
+"Geometrijski algoritmi";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Urosevic Dragan";"n029";"301, 316";"1. nedelja";"PET";"13:15-15";"Ucionica 9";;;;;;;;;;"Jovanovic Nikola";"/";"301, 316";"1. nedelja";"PON";"14:15-16";"Ucionica 3";;;;;;;;;;
+
+"Informacioni sistemi";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Zahorjanski Miroljub";"n036";"2s1, 2s2";"1. nedelja";"PON";"14:15-17";"Ucionica 1";;;;;;;;;;"Radosavljevic Nemanja";"n025";"2s2";"1. nedelja";"UTO";"14:15-17";"Ucionica 3";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Radosavljevic Nemanja";"n025";"2s1";"1. nedelja";"PON";"9:15-12";"Ucionica 3";;;;;;;;;;
+
+"Inteligentni sistemi";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Vasiljevic Jelena";"/";"201, 202";"1. nedelja";"ÈET";"18:15-21";"Ucionica 6";;;;;;;;;;"Milunovic Milos";"/";"201";"1. nedelja";"ÈET";"15:15-17";"Ucionica 7";;;;;;;;;;
+;"Ilic Nemanja";"/";"203, 204, 205";"1. nedelja";"SRE";"18:15-21";"Ucionica 6";;;;;;;;;;"Milunovic Milos";"/";"205";"1. nedelja";"PET";"17:15-19";"Ucionica 5";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Milunovic Milos";"/";"203";"1. nedelja";"UTO";"9:15-11";"Ucionica 5";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Milunovic Milos";"/";"204";"1. nedelja";"UTO";"15:15-17";"Ucionica 7";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Milunovic Milos";"/";"202";"1. nedelja";"PON";"12:15-14";"Ucionica 7";;;;;;;;;;
+
+"IT servis menadzment";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Zahorjanski Miroljub";"n036";"3s1, 3s2";"1. nedelja";"PON";"9:15-11";"Ucionica 9";;;;;;;;;;"Zahorjanski Miroljub";"n036";"3s2";"1. nedelja";"PON";"11:15-12";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Zahorjanski Miroljub";"n036";"3s1";"1. nedelja";"PON";"12:15-13";"Ucionica 4";;;;;;;;;;
+
+"Kombinatorika i teorija grafova";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Jovanovic Irena";"n010";"401, 402, 403, 407, 408";"1. nedelja";"SRE";"9:15-11";"Ucionica 6";;;;;;;;;;"Jovanovic Irena";"n010";"401, 402, 403, 407, 408";"1. nedelja";"PET";"9:15-11";"Ucionica 6";;;;;;;;;;
+
+"Konfiguracija i odrzavanje IP mreza";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Bojovic Petar";"n003";"3s1";"1. nedelja";"SRE";"12:15-15";"Ucionica 8";;;;;;;;;;"Jankovski Ivan";"/";"3s1";"1. nedelja";"PET";"13:15-16";"Ucionica 2";;;;;;;;;;
+
+"Kriptografija";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Urosevic Dragan";"n029";"302, 303, 314, 315, 316";"1. nedelja";"ÈET";"9:15-11";"Ucionica 1";;;;;;;;;;"Draskic Radojica";"/";"301";"1. nedelja";"SRE";"19:15-21";"Ucionica 1";;;;;;;;;;
+;"Urosevic Dragan";"n029";"301";"1. nedelja";"PET";"11:15-13";"Ucionica 9";;;;;;;;;;"Draskic Radojica";"/";"302, 303, 314, 315, 316";"1. nedelja";"SRE";"16:15-18";"Ucionica 6";;;;;;;;;;
+
+"Linearna algebra i analiticka geometrija";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Jovanovic Jelena";"/";"101, 103, 104, 102";"1. nedelja";"PET";"13:15-15";"Ucionica 6";;;;;;;;;;"Jovanovic Jelena";"/";"101, 103, 102, 104";"1. nedelja";"UTO";"12:15-15";"Ucionica 1";;;;;;;;;;
+;"Filipovic Milanka";"n006";"105, 106";"1. nedelja";"UTO";"17:15-19";"Ucionica 1";;;;;;;;;;"Filipovic Milanka";"n006";"107, 108, 109, 110, 111";"1. nedelja";"UTO";"11:15-14";"Ucionica 6";;;;;;;;;;
+;"Filipovic Milanka";"n006";"107, 108, 109, 110, 111";"1. nedelja";"ÈET";"9:15-11";"Ucionica 6";;;;;;;;;;"Filipovic Milanka";"n006";"105, 106";"1. nedelja";"UTO";"14:15-17";"Ucionica 6";;;;;;;;;;
+
+"Mreze za udaljeni pristup";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Bojovic Petar";"n003";"411";"1. nedelja";"SRE";"16:15-18";"Ucionica 9";;;;;;;;;;"Majstorovic Dunja";"n013";"411";"1. nedelja";"SUB";"13:15-15";"Ucionica 2";;;;;;;;;;
+
+"Multimedijalni  informacioni sistemi";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Vujosevic Dusan";"n034";"402, 408";"1. nedelja";"SRE";"14:15-16";"Ucionica 9";;;;;;;;;;"Tomic Milan";"n028";"402, 408";"1. nedelja";"PON";"17:15-19";"Ucionica 2";;;;;;;;;;
+
+"Napredno Java programiranje";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Vidakovic MIlan";"n030";"402, 403, 414, 408";"1. nedelja";"ÈET";"13:15-15";"Ucionica 1";;;;;;;;;;"Pluskoski Aleksandar";"/";"403";"1. nedelja";"UTO";"19:15-21";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Pluskoski Aleksandar";"/";"402, 408, 414";"1. nedelja";"PON";"19:15-21";"Ucionica 2";;;;;;;;;;
+
+"Organizacija racunara";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Babovic Ivan";"n002";"1s1, 1s2";"1. nedelja";"SRE";"11:15-14";"Ucionica 6";;;;;;;;;;"Stambolovic Bogdana";"/";"1s2";"1. nedelja";"ÈET";"14:15-17";"Ucionica 2";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Stambolovic Bogdana";"/";"1s1";"1. nedelja";"UTO";"11:15-14";"Ucionica 3";;;;;;;;;;
+
+"Osnovi elektronike";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Fidanovski Zoran";"/";"210, 211";"1. nedelja";"PET";"13:15-15";"Ucionica 1";;;;;;;;;;"Stambolovic Bogdana";"/";"210, 211";"1. nedelja";"SRE";"11:15-13";"Ucionica 1";;;;;;;;;;
+
+"Osnovi oblikovanja";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Malesevic Nenad";"/";"1d1";"1. nedelja";"PON";"13:15-16";"Atelje";;;;;;;;;;"Prodanovic Ana";"/";"1d1, 1d2";"1. nedelja";"SRE";"9:15-12";"Ucionica 11";;;;;;;;;;
+;"Malesevic Nenad";"/";"1d2";"1. nedelja";"PON";"16:15-19";"Atelje";;;;;;;;;;;;;;;;;;;;;;;;;;
+
+"Osnovi programiranja";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Veniger Marko";"/";"1s2";"1. nedelja";"UTO";"19:15-21";"Rg 1";;;;;;;;;;"Sijacic  ";"/";"1s1";"1. nedelja";"UTO";"14:15-17";"Ucionica 2";;;;;;;;;;
+;"Veniger Marko";"/";"1s1";"1. nedelja";"PET";"17:15-19";"Ucionica 4";;;;;;;;;;"Paunovic Vanja";"/";"1s2";"1. nedelja";"PON";"9:15-12";"Ucionica 2";;;;;;;;;;
+
+"Osnovi projektovanja";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Telarovic Rosana";"/";"1d1";"1. nedelja";"UTO";"10:15-13";"Atelje";;;;;;;;;;"Telarovic Rosana";"/";"1d1, 1d2";"1. nedelja";"SRE";"12:15-15";"Ucionica 11";;;;;;;;;;
+;"Telarovic Rosana";"/";"1d2";"1. nedelja";"UTO";"13:15-16";"Atelje";;;;;;;;;;;;;;;;;;;;;;;;;;
+
+"Osnovi racunarskih sistema";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Vukotic Selena";"n035";"101, 103, 102, 104";"1. nedelja";"UTO";"9:15-12";"Ucionica 1";;;;;;;;;;"Vukotic Selena";"n035";"103, 104";"1. nedelja";"PON";"14:15-16";"Ucionica 5";;;;;;;;;;
+;"Jovanovic Milos";"n011";"107, 108, 109";"1. nedelja";"PON";"15:15-18";"Ucionica 6";;;;;;;;;;"Vukotic Selena";"n035";"101, 102";"1. nedelja";"PET";"9:15-11";"Ucionica 7";;;;;;;;;;
+;"Bozic Jovana";"/";"105, 106, 110, 111";"1. nedelja";"PON";"18:15-21";"Ucionica 6";;;;;;;;;;"Todorovic Aleksandar";"/";"106";"1. nedelja";"UTO";"19:15-21";"Ucionica 3";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Todorovic Aleksandar";"/";"111, 110";"1. nedelja";"PON";"15:15-17";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Todorovic Aleksandar";"/";"105";"1. nedelja";"ÈET";"11:15-13";"Ucionica 7";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Obradovic Dusan";"/";"107";"1. nedelja";"PON";"19:15-21";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Obradovic Dusan";"/";"108, 109";"1. nedelja";"SRE";"9:15-11";"Ucionica 4";;;;;;;;;;
+
+"Pismo i tipografija";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Prodanovic Ana";"/";"2d1, 2d2";"1. nedelja";"PON";"9:15-12";"Ucionica 11";;;;;;;;;;"Prodanovic Ana";"/";"2d1, 2d2";"1. nedelja";"ÈET";"10:15-13";"Ucionica 11";;;;;;;;;;
+
+"Poslovne aplikacije";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;;;;;;;;;;;;;;;;;"Mijatovic Igor";"n016";"108";"1. nedelja";"ÈET";"13:15-15";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Mijatovic Igor";"n016";"107";"1. nedelja";"PET";"13:15-15";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Mijatovic Igor";"n016";"106";"1. nedelja";"SRE";"11:15-13";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Mijatovic Igor";"n016";"103";"1. nedelja";"PET";"9:15-11";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Mijatovic Igor";"n016";"101";"1. nedelja";"PET";"11:15-13";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Mijatovic Igor";"n016";"102, 104, 109, 111";"1. nedelja";"ÈET";"11:15-13";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Mijatovic Igor";"n016";"110";"1. nedelja";"SRE";"13:15-15";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Mijatovic Igor";"n016";"105";"1. nedelja";"ÈET";"15:15-17";"Ucionica 4";;;;;;;;;;
+
+"Prakticne tehnike rutiranja";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Bojovic Petar";"n003";"312, 314, 313";"1. nedelja";"PET";"9:15-11";"Ucionica 9";;;;;;;;;;"Majstorovic Dunja";"n013";"312, 314, 313";"1. nedelja";"SRE";"19:15-21";"Ucionica 5";;;;;;;;;;
+
+"Praktikum iz arhitekture racunara i operativnih sistema";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;;;;;;;;;;;;;;;;;"Stambolovic Bogdana";"/";"1s1";"1. nedelja";"UTO";"9:15-11";"Ucionica 2";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Stambolovic Bogdana";"/";"1s2";"1. nedelja";"PON";"12:15-14";"Ucionica 3";;;;;;;;;;
+
+"Projektovanje racunarskih sistema";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;;;;;;;;;;;;;;;;;;;;;;;;;"Radivojevic Mirjana";"/";"312, 313, 314";"1. nedelja";"UTO";"11:15-15";"Ucionica 7";;
+;;;;;;;;;;;;;;;;;;;;;;;;;"Radivojevic Mirjana";"/";"312, 313, 314";"1. nedelja";"PET";"15:15-19";"Ucionica 7";;
+;;;;;;;;;;;;;;;;;;;;;;;;;"Radivojevic Mirjana";"/";"312, 313, 314";"1. nedelja";"SRE";"11:15-15";"Ucionica 7";;
+;;;;;;;;;;;;;;;;;;;;;;;;;"Radivojevic Mirjana";"/";"312, 313, 314";"1. nedelja";"ÈET";"17:15-20";"Ucionica 7";;
+;;;;;;;;;;;;;;;;;;;;;;;;;"Radivojevic Mirjana";"/";"312, 313, 314";"1. nedelja";"PON";"14:15-17";"Ucionica 7";;
+
+"Racunarska grafika";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Jokanovic Dusan";"/";"301";"1. nedelja";"ÈET";"17:15-19";"Ucionica 1";;;;;;;;;;"Stancic Aleksandar";"n027";"302";"1. nedelja";"SRE";"19:15-21";"Ucionica 3";;;;;;;;;;
+;"Jokanovic Dusan";"/";"302, 303";"1. nedelja";"PET";"17:15-19";"Ucionica 1";;;;;;;;;;"Stancic Aleksandar";"n027";"303";"1. nedelja";"UTO";"17:15-19";"Ucionica 5";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Stancic Aleksandar";"n027";"301";"1. nedelja";"SRE";"17:15-19";"Ucionica 3";;;;;;;;;;
+
+"Racunarska podrska u dizajnu";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Djuric Milan";"/";"2d1, 2d2";"1. nedelja";"PON";"12:15-15";"Ucionica 11";;;;;;;;;;"Djuric Milan";"/";"2d1, 2d2";"1. nedelja";"PET";"10:15-13";"Ucionica 11";;;;;;;;;;
+
+"Signali i sistemi";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Babic Djorde";"n001";"210, 211";"1. nedelja";"ÈET";"15:15-18";"Ucionica 6";;;;;;;;;;"Jovanovic Miljana";"/";"211";"1. nedelja";"PON";"12:15-14";"Ucionica 5";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Jovanovic Miljana";"/";"210";"1. nedelja";"PET";"9:15-11";"Ucionica 3";;;;;;;;;;
+
+"Sistemi u realnom vremenu";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Milinkovic Stevan";"n018";"302, 303, 315";"1. nedelja";"ÈET";"11:15-13";"Ucionica 1";;;;;;;;;;"Milojkovic Branislav";"n019";"312";"1. nedelja";"SRE";"17:15-19";"Rg 1";;;;;;;;;;
+;"Milinkovic Stevan";"n018";"312, 313, 314, 316";"1. nedelja";"UTO";"15:15-17";"Ucionica 1";;;;;;;;;;"Milojkovic Branislav";"n019";"303, 315";"1. nedelja";"UTO";"15:15-17";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Todorovic Aleksandar";"/";"302, 314, 313, 316";"1. nedelja";"UTO";"17:15-19";"Ucionica 3";;;;;;;;;;
+
+"Skalabilne racunarske mreze";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Bojovic Petar";"n003";"411";"1. nedelja";"PON";"15:15-17";"Ucionica 9";;;;;;;;;;"Majstorovic Dunja";"n013";"411";"1. nedelja";"SUB";"11:15-13";"Ucionica 2";;;;;;;;;;
+
+"Skladista podataka";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Popovic Snezana";"n023";"401, 403, 414";"1. nedelja";"PET";"11:15-13";"Ucionica 1";;;;;;;;;;"Radenkovic Milos";"/";"403";"1. nedelja";"UTO";"17:15-19";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Radenkovic Milos";"/";"401, 414";"1. nedelja";"ÈET";"17:15-19";"Ucionica 5";;;;;;;;;;
+
+"Skript jezici";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Dimic Surla Bojana";"n005";"302, 303, 316";"1. nedelja";"PET";"15:15-17";"Ucionica 6";;;;;;;;;;"Tomic Milan";"n028";"302, 316";"1. nedelja";"UTO";"13:15-15";"Ucionica 5";;;;;;;;;;
+;"Dimic Surla Bojana";"n005";"301, 315, 312";"1. nedelja";"UTO";"17:15-19";"Ucionica 6";;;;;;;;;;"Tomic Milan";"n028";"301";"1. nedelja";"UTO";"19:15-21";"Ucionica 7";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Tomic Milan";"n028";"312, 315";"1. nedelja";"ÈET";"13:15-15";"Ucionica 7";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Tomic Milan";"n028";"303";"1. nedelja";"PET";"13:15-15";"Ucionica 7";;;;;;;;;;
+
+"SQL programiranje";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;;;;;;;;;;;;;;;;;;;;;;;;;"Popovic Snezana";"n023";"3s2";"1. nedelja";"SRE";"14:15-17";"Ucionica 2";;
+;;;;;;;;;;;;;;;;;;;;;;;;;"Popovic Snezana";"n023";"3s2";"1. nedelja";"PON";"12:15-15";"Ucionica 2";;
+
+"Testiranje softvera";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Milojkovic Branislav";"n019";"402, 407";"1. nedelja";"PON";"15:15-17";"Ucionica 2";;;;;;;;;;"Gavrilovic Vuk";"/";"402, 407";"1. nedelja";"ÈET";"17:15-19";"Ucionica 2";;;;;;;;;;
+
+"Upravljanje projektima";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Vujosevic Dusan";"n034";"411, 414, 407, 408, 401, 402, 403";"1. nedelja";"SRE";"12:15-14";"Kolarac";;;;;;;;;;"Radosavljevic Nemanja";"n025";"403, 414";"1. nedelja";"SRE";"15:15-17";"Ucionica 7";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Radosavljevic Nemanja";"n025";"401, 408";"1. nedelja";"PET";"15:15-17";"Ucionica 4";;;;;;;;;;
+;;;;;;;;;;;;;;;;;"Radosavljevic Nemanja";"n025";"411, 402, 407";"1. nedelja";"PON";"13:15-15";"Ucionica 4";;;;;;;;;;
+
+"Uvod u administraciju IP mreza";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Bojovic Petar";"n003";"3s1";"1. nedelja";"SRE";"9:15-12";"Ucionica 8";;;;;;;;;;"Jankovski Ivan";"/";"3s1";"1. nedelja";"PET";"16:15-19";"Ucionica 2";;;;;;;;;;
+
+"Uvod u programiranje";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Dimic Surla Bojana";"n005";"107, 108, 110, 109, 111";"1. nedelja";"UTO";"9:15-11";"Ucionica 6";;"Rodic Strahinja";"/";"108, 109";"1. nedelja";"PET";"15:15-17";"Ucionica 5";;"Tomic Milan";"n028";"103, 104";"1. nedelja";"SRE";"19:15-21";"Ucionica 7";;;;;;;;;;
+;"Urosevic Dragan";"n029";"101, 103, 102, 104";"1. nedelja";"SRE";"15:15-17";"Kolarac";;"Ciric Bogdan";"/";"107";"1. nedelja";"ÈET";"13:15-15";"Ucionica 5";;"Tomic Milan";"n028";"101, 102";"1. nedelja";"SRE";"17:15-19";"Ucionica 7";;;;;;;;;;
+;"Dimic Surla Bojana";"n005";"105, 106";"1. nedelja";"SRE";"14:15-16";"Ucionica 6";;"Burgic Stefan";"/";"103, 104";"1. nedelja";"PET";"11:15-13";"Ucionica 7";;"Vignjevic Mihailo";"/";"105";"1. nedelja";"SRE";"11:15-13";"Ucionica 3";;;;;;;;;;
+;;;;;;;;;"Burgic Stefan";"/";"101, 102";"1. nedelja";"PON";"10:15-12";"Ucionica 7";;"Tomic Milan";"n028";"108, 109";"1. nedelja";"PON";"19:15-21";"Ucionica 7";;;;;;;;;;
+;;;;;;;;;"Dresevic Nevena";"/";"110, 111";"1. nedelja";"SRE";"9:15-11";"Ucionica 5";;"Zirojevic Nemanja";"/";"110, 111";"1. nedelja";"PET";"19:15-21";"Ucionica 7";;;;;;;;;;
+;;;;;;;;;"Dresevic Nevena";"/";"105";"1. nedelja";"ÈET";"9:15-11";"Ucionica 3";;"Tomic Milan";"n028";"107";"1. nedelja";"ÈET";"11:15-13";"Ucionica 5";;;;;;;;;;
+;;;;;;;;;"Rodic Strahinja";"/";"106";"1. nedelja";"ÈET";"17:15-19";"Ucionica 4";;"Vignjevic Mihailo";"/";"106";"1. nedelja";"ÈET";"15:15-17";"Ucionica 5";;;;;;;;;;
+
+"Uvod u softversko inzenjerstvo";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Fidanovski Zoran";"/";"3s1, 3s2";"1. nedelja";"ÈET";"9:15-11";"Ucionica 8";;;;;;;;;;"Markovic Ana";"/";"3s1, 3s2";"1. nedelja";"PET";"19:15-21";"Ucionica 1";;;;;;;;;;
+
+"Veliki podaci";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Vujosevic Dusan";"n034";"414, 408, 401";"1. nedelja";"PET";"13:15-15";"Ucionica 8";;;;;;;;;;"Miletic Misa";"/";"401, 407, 408";"1. nedelja";"UTO";"17:15-19";"Ucionica 7";;;;;;;;;;
+;"Vujosevic Dusan";"n034";"403, 407";"1. nedelja";"PON";"19:15-21";"Ucionica 9";;;;;;;;;;"Miletic Misa";"/";"403, 414";"1. nedelja";"PON";"17:15-19";"Ucionica 7";;;;;;;;;;
+
+"Viseslojne komutirane racunarske mreze";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Bojovic Petar";"n003";"411";"1. nedelja";"PON";"17:15-19";"Ucionica 9";;;;;;;;;;"Majstorovic Dunja";"n013";"411";"1. nedelja";"SUB";"9:15-11";"Ucionica 2";;;;;;;;;;
+
+"Web sistemi i tehnologije";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Radosavljevic Nemanja";"n025";"2s1";"1. nedelja";"PET";"11:15-14";"Ucionica 3";;;;;;;;;;"Veniger Marko";"/";"2s2";"1. nedelja";"PON";"17:15-19";"Ucionica 3";;;;;;;;;;
+;"Radosavljevic Nemanja";"n025";"2s2";"1. nedelja";"SRE";"12:15-15";"Ucionica 5";;;;;;;;;;"Veniger Marko";"/";"2s1";"1. nedelja";"SRE";"17:15-19";"Ucionica 5";;;;;;;;;;
+
+"Uvod u interaktivni dizajn";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Djuric Milan";"/";"3d1";"1. nedelja";"PET";"13:15-16";"Ucionica 11";;;;;;;;;;"Djuric Milan";"/";"3d1";"1. nedelja";"UTO";"10:15-13";"Ucionica 11";;;;;;;;;;
+
+"3D modelovanje i animacija";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Komad Miljana";"/";"3d1";"1. nedelja";"SRE";"16:15-19";"Ucionica 11";;;;;;;;;;"Komad Miljana";"/";"3d1";"1. nedelja";"PET";"16:15-19";"Ucionica 11";;;;;;;;;;
+
+"FIlmska produkcija";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Stetin Darko";"/";"3d1";"1. nedelja";"SUB";"14:15-16";"Ucionica 11";;;;;;;;;;"Stetin Darko";"/";"3d1";"1. nedelja";"SUB";"16:15-18";"Ucionica 11";;;;;;;;;;
+
+"Graficko oglasavanje";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Prodanovic Ana";"/";"3d1";"1. nedelja";"ÈET";"15:15-17";"Ucionica 11";;;;;;;;;;"Prodanovic Ana";"/";"3d1";"1. nedelja";"ÈET";"13:15-15";"Ucionica 11";;;;;;;;;;
+
+"Integrisani informacioni sistemi";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Vujosevic Dusan";"n034";"401, 407";"1. nedelja";"ÈET";"15:15-17";"Ucionica 8";;;;;;;;;;"Mijailovic Tina";"/";"401, 407";"1. nedelja";"UTO";"19:15-21";"Ucionica 5";;;;;;;;;;
+
+"Sistemsko programiranje";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Jovanovic Milos";"n011";"315, 313";"1. nedelja";"ÈET";"15:15-17";"Ucionica 9";;;;;;;;;;"Obradovic Dusan";"/";"315, 313";"1. nedelja";"PON";"17:15-19";"Rg 1";;;;;;;;;;
+
+"Verovatnoca i statistika";
+;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";;"Nastavnik(ci)";"Šifra";"Odeljenje";"Nedelja(e)";"Dan";"Èas";"Uèionica";
+;"Jovanovic Jelena";"/";"301, 312";"1. nedelja";"PON";"19:15-21";"Ucionica 1";;;;;;;;;;"Jerotijevic Marija";"n009";"302, 303, 313, 314, 315, 316";"1. nedelja";"PET";"11:15-13";"Ucionica 6";;;;;;;;;;
+;"Jovanovic Jelena";"/";"302, 303, 314, 315, 316, 313";"1. nedelja";"UTO";"19:15-21";"Ucionica 6";;;;;;;;;;"Jerotijevic Marija";"n009";"301, 312";"1. nedelja";"PON";"17:15-19";"Ucionica 1";;;;;;;;;;
+

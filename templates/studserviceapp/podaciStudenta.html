@@ -1,0 +1,60 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Podaci studenta</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="main">
+    <div id="first">
+    <form action="{% url 'uploadSliku' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label>Ime:</label>
+        <br>
+        <input type="text" readonly value="{{student.ime}} {{student.prezime}}">
+        <br>
+        <label>Broj indeksa:</label>
+        <br>
+        <input type="text" readonly value="{{student.broj_indeksa}}">
+        <br>
+        <label>Godina upisa:</label>
+        <br>
+        <input type="text" readonly value="{{student.godina_upisa}}">
+        <br>
+        <label>Smer:</label>
+        <br>
+        <input type="text" readonly value="{{student.smer}}">
+        <br>
+        <label>Nalog:</label>
+        <br>
+        <input type="text" readonly value="{{student.nalog.username}}">
+        <br>
+        <label>Grupa:</label>
+        <br>
+        <input type="text" readonly value="{{oznaka_grupe}}">
+        <br>
+        <label>Slika:</label>
+        <br>
+            {% block content %}
+            {% ifnotequal slikaURL '' %}
+            <img src="{{ slikaURL }}">
+            {% endifnotequal %}
+            {% endblock %}
+            <br>
+        <label>Upload:</label>
+        <br>
+        <input type="file" name="pic" accept="image/*">
+        <br>
+        <input type="submit" value="Snimi">
+        <input type="hidden" name="nalog" value={{student.nalog.username}} />
+    </form>
+    </div>
+    </div>
+</body>
+</html>
+
+{% endblock %}

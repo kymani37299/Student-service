@@ -1,0 +1,28 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Izbor grupe detalji</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <div id="main">
+    <div id="first">
+	<form action="{% url 'izborGrupeDetalji_request' %}" method="post" id="forma">
+		{% csrf_token %}
+		<select name="tip_pretrage">
+			<option value="imePrezime">Ime i prezime </option>
+			<option value="brojIndeksa"> Broj indeksa </option>
+		</select>
+		<input type="text" name="unos" id="unos" required/>
+		<input type="submit" />
+	</form>
+    </div>
+    </div>
+</body>
+</html>
+{% endblock %}

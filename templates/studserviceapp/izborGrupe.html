@@ -1,0 +1,146 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Izbor grupe ({{username}})</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <div id="main">
+    <div id="first">
+		<h1> Izbor grupe </h1>
+		<form action="{% url 'izaberiGrupu' %}" method="post" id="forma">
+		{% csrf_token %}
+			<label>Smer:</label>
+			<br>
+			<select name="smer" required>
+				{% for smer in smerovi %}
+				<option value='{{smer}}' {% if student.smer == '{{smer}}' %} selected {% endif %}>{{smer}}</option>
+				{% endfor %}
+			</select>
+			<br>
+			<label>Broj indeksa:</label>
+			<br>
+			<input type="text" rows="1" cols="5" name="broj_indeksa" size="3" value='{{ student.broj_indeksa }}' required />
+			<br>
+			<label>Godina:</label>
+			<br>
+			<select name="godina_upisa" required>
+				{% for godina in godine_upisa %}
+				<option value="{{godina}}" {% if student.godina_upisa == '{{godina}}' %} selected {% endif %}>{{godina}}</option>
+				{% endfor %}
+			</select>
+			<br>
+			<label>Ime:</label>
+			<br>
+			<input type="text" rows="1" cols="20" name="ime" value = '{{ student.ime }}' required />
+			<br>
+			<label>Prezime:</label>
+			<br>
+			<input type="text" rows="1" cols="20" name="prezime" value = '{{ student.prezime }}' required />
+			<br>
+			<label>Broj do sada ukupno ostvarenih ESPB:</label>
+			<br>
+			<input type="text" rows="1" cols="5" name="broj_ostvarenih_ESPB" size="3" required />
+			<br>
+			<label>Skolske {{skolska_godina_pocetak}}/{{skolska_godina_kraj}} godine upisujem ESPB:</label>
+			<br>
+			<input type="text" rows="1" cols="5" name="broj_ESPB_upisanih" size="3" required />
+			<br>
+			<label>Broj do sada polozenih ispita:</label>
+			<br>
+			<input type="text" rows="1" cols="5" name="broj_polozenih_ispita" size="3" required />
+			<br>
+			<label>Semestar:</label>
+			<br>
+			<select name="oznaka_semestra" required onchange="promenaSemestra(this)">
+				<option id="prviSemestar" value="1" selected>1</option>
+				<option value="3">3</option>
+				<option value="5">5</option>
+				<option value="7">7</option>
+        	</select>
+			<br>
+			<label> Prvi put upisuje semestar: </label>
+			<br>
+			<div>
+				<input type="radio" name="prvi_put_upisuje" value="Da" required> Da </input>
+    			<input type="radio" name="prvi_put_upisuje" value="Ne"required> Ne </input> 
+	    	</div>
+			<br>
+			<label>Grupa koju student bira:</label>
+			<br>
+			<select id="grupe" name="izbor_grupe" required>
+				{% for grupa in grupe %}
+					<option value={{grupa.id}}>{{grupa.oznaka_grupe}}</option>
+				{% endfor %}
+        	</select>
+			<br>
+			<label>Nepolozeni predmeti iz predhodnih godina:</label>
+			<br>
+			<select id="predmeti_input" style="width: 280px; height: 140px;" multiple>
+				{% for predmet in predmeti %}
+				<option value={{predmet.id}}>{{predmet.naziv}}</option>
+				{% endfor %}
+			</select>
+			<button id="add_predmet" type="button"> > </button>
+			<button id="remove_predmet" type="button"> < </button>
+			<select name="predmeti" id="predmeti_output" style="width: 280px; height: 140px;" multiple>
+			</select>
+			<br>
+			<label>Nacin placanje skolarine:</label>
+			<br>
+			<div>
+				<input type="radio" name="nacin_placanja" value="odjednom"> Odjednom </input>
+	    		<input type="radio" name="nacin_placanja" value="na_rate"> Na rate </input>
+	    		<input type="radio" name="nacin_placanja" value="stipendista"> Stipendista </input>
+	    	</div>
+			<br>
+		<input type="submit" value="Sacuvaj">
+		</form>
+    </div>
+    </div>
+    <script type='text/javascript'>
+		$(document).ready(function() {
+			$("#add_predmet").click(function() {
+				let predmeti = $("#predmeti_input option:selected");
+				$("#predmeti_output").append($(predmeti).clone());
+				$(predmeti).remove();
+			});
+
+			$("#remove_predmet").click(function() {
+				let predmeti = $("#predmeti_output option:selected");
+				$("#predmeti_input").append($(predmeti).clone());
+				$(predmeti).remove();
+			});
+
+			$("#forma").submit(function() {
+				 $('#predmeti_output option').attr('selected', 'selected');
+				 return true;
+			});
+			promenaSemestra($('#prviSemestar')[0]);
+		});
+
+		function promenaSemestra(sel){
+            var grupeSemestar = {{grupeSemestar|safe}};
+            var grupeSet = new Set(grupeSemestar[sel.value]);
+            for (i = 0; i <= $('#grupe')[0].options.length; ++i) {
+                if (grupeSet.has($('#grupe')[0].options[i].text)) {
+                    $('#grupe option[value='+$('#grupe')[0].options[i].value+']').show();
+                }
+                else {
+                    $('#grupe option[value='+$('#grupe')[0].options[i].value+']').hide();
+                }
+            }
+		};
+	</script>	
+</body>
+</html>
+
+{% endblock %}

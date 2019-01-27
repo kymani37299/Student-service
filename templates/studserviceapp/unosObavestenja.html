@@ -1,0 +1,32 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Podaci studenta</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="main">
+    <div id="first">
+    <form action="{% url 'unesiObavestenje' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label>Obavestenje:</label>
+        <br>
+        <textarea name="tekst" placeholder="Obavestenje"> </textarea>
+        <br>
+        <label>Fajl:</label>
+        <br>
+        <input type="file" name="fajl">
+        <br>
+        <input type="submit" value="Snimi">
+        <input type="hidden" name="nalog" value={{nalog}} />
+    </form>
+    </div>
+    </div>
+</body>
+</html>
+
+{% endblock %}

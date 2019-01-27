@@ -1,0 +1,95 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="naslov">
+        Raspored
+    </title>
+    <style>
+        .row {
+            display: flex;
+            text-align :center;
+        }
+        .column100 {
+            flex : 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class = "column100">
+        <table id="raspored" class="display" width="100%"></table>
+
+        <div class="row">
+            <div id="grupeFilter" class="column33"><b>Grupe</b><br>
+            </div>
+            <div id="nastavniciFilter" class="column33"><b>Nastavnici</b><br>
+            </div>
+            <div id="ucionicaFilter" class="column33"><b>Ucionica</b><br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+<script type='text/javascript'>
+
+    function filter(filt){
+        $('#raspored').DataTable().search( filt );
+        $('#raspored').DataTable().order([[ 4, 'asc' ], [ 5, 'asc' ]]).draw();
+        $('html, body').animate({ scrollTop: 0 }, 'fast');
+    }
+
+    $(document).ready(function() {
+        var dataSet = {{raspored|safe}};
+        $('#raspored').DataTable( {
+        data: dataSet,
+        columns: [
+            { title: "Predmet" },
+            { title: "Tip" },
+            { title: "Nastavnik" },
+            { title: "Grupe" },
+            { title: "Dan" },
+            { title: "Termin" },
+            { title: "Ucionica" }
+        ]
+        });
+
+        var grupe = {{grupe|safe}};
+        for(var key in grupe) {
+            var link = document.createElement('a');
+            link.setAttribute('href', 'javascript:void(0)');
+            link.setAttribute('onclick', "filter('" + grupe[key] +"');");
+            link.innerHTML = grupe[key];
+            $('#grupeFilter').append(link);
+            $('#grupeFilter').append("<br>");
+        }
+
+        var nastavnici = {{nastavnici|safe}};
+        for(var key in nastavnici) {
+            var link = document.createElement('a');
+            link.setAttribute('href', 'javascript:void(0)');
+            link.setAttribute('onclick', "filter('" + nastavnici[key] +"');");
+            link.innerHTML = nastavnici[key];
+            $('#nastavniciFilter').append(link);
+            $('#nastavniciFilter').append("<br>");
+        }
+
+        var ucionice = {{ucionice|safe}};
+        for(var key in ucionice) {
+            var link = document.createElement('a');
+            link.setAttribute('href', 'javascript:void(0)');
+            link.setAttribute('onclick', "filter('" + ucionice[key] +"');");
+            link.innerHTML = ucionice[key];
+            $('#ucionicaFilter').append(link);
+            $('#ucionicaFilter').append("<br>");
+        }
+    });
+</script>
+</body>
+</html>
+{% endblock %}

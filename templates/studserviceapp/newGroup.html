@@ -1,0 +1,85 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unos grupe</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type='text/javascript'>
+        $(document).ready(function() {
+            promenaSemestra($('#prviSemestar')[0]);
+        });
+
+        function promenaSemestra(sel){
+            var predmetiSemestar = {{predmetiSemestar|safe}};
+            var predmetiSet = new Set(predmetiSemestar[sel.value]);
+            for (i = 0; i <= $('#predmeti')[0].options.length; ++i) {
+                if (predmetiSet.has($('#predmeti')[0].options[i].text)) {
+                    $('#predmeti option[value='+$('#predmeti')[0].options[i].value+']').show();
+                }
+                else {
+                    $('#predmeti option[value='+$('#predmeti')[0].options[i].value+']').hide();
+                }
+            };
+    }
+    </script>
+    <div id="main">
+    <div id="first">
+    <form action="{% url 'addGroup' %}" method="post">
+        {% csrf_token %}
+        <label>Oznaka grupe:</label>
+        <br>
+        <input type="text" rows="1" cols="10" name="oznaka_grupe" required placeholder="Oznaka grupe"/>
+        <br>
+        <label>Semestar:</label>
+        <br>
+            <select name="oznaka_semestra" required onchange="promenaSemestra(this)">
+                <option id="prviSemestar" value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        <br>
+        <label>Kapacitet</label>
+        <br>
+        <input type="number" rows="1" cols="10" name="kapacitet" placeholder="Kapacitet" required/>
+        <br>
+        <label>Smer:</label>
+        <br>
+            <select name="smer" required>
+                <option value="RN">RN</option>
+                <option value="RM">RM</option>
+            </select>
+        <br>
+        <label>Aktivna:</label>
+        <br>
+        <input type="checkbox" name="aktivna"/>
+        <br>
+        <label>Za semestar:</label>
+        <br>
+        <input type="number" name='za_semestar' cols="10" placeholder="Za semestar" required/>
+        <br>
+        <label>Predmeti:</label>
+        <br>
+        <select id="predmeti" name="predmeti" multiple required>
+            {% for predmet in predmeti %}
+            <option value={{predmet.id}}>{{predmet.naziv}}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <input type="submit" value="Snimi">
+    </form>
+    </div>
+    </div>
+</body>
+</html>
+{% endblock %}

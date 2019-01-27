@@ -1,0 +1,85 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista grupa</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type='text/javascript'>
+        function promena(){
+            var grupeSmer = {{grupeSmer|safe}};
+            var predmetiRN = new Set(grupeSmer['RN']);
+            var predmetiRM = new Set(grupeSmer['RM']);
+            var grupeSemestar = {{grupeSemestar|safe}};
+            var predmetiSem1 = new Set(grupeSemestar[1]);
+            var predmetiSem2 = new Set(grupeSemestar[2]);
+            var predmetiSem3 = new Set(grupeSemestar[3]);
+            var predmetiSem4 = new Set(grupeSemestar[4]);
+            var predmetiSem5 = new Set(grupeSemestar[5]);
+            var predmetiSem6 = new Set(grupeSemestar[6]);
+            var predmetiSem7 = new Set(grupeSemestar[7]);
+            var predmetiSem8 = new Set(grupeSemestar[8]);
+            $('#grupe').find('a').each(function() {
+                var shouldHide = false;
+                if(predmetiRN.has($(this)[0].id) && !($('#RN').is(':checked')))
+                    shouldHide = true;
+                else if(predmetiRM.has($(this)[0].id) && !($('#RM').is(':checked')))
+                    shouldHide = true;
+                else if(predmetiSem1.has($(this)[0].id) && !($('#sem1').is(':checked')))
+                    shouldHide = true;
+                else if(predmetiSem2.has($(this)[0].id) && !($('#sem2').is(':checked')))
+                    shouldHide = true;
+                else if(predmetiSem3.has($(this)[0].id) && !($('#sem3').is(':checked')))
+                    shouldHide = true;
+                else if(predmetiSem4.has($(this)[0].id) && !($('#sem4').is(':checked')))
+                    shouldHide = true;
+                else if(predmetiSem5.has($(this)[0].id) && !($('#sem5').is(':checked')))
+                    shouldHide = true;
+                else if(predmetiSem6.has($(this)[0].id) && !($('#sem6').is(':checked')))
+                    shouldHide = true;
+                else if(predmetiSem7.has($(this)[0].id) && !($('#sem7').is(':checked')))
+                    shouldHide = true;
+                else if(predmetiSem8.has($(this)[0].id) && !($('#sem8').is(':checked')))
+                    shouldHide = true;
+                if(shouldHide){
+                    $(this).hide();
+                    $(this).next().hide();
+                }
+                else {
+                    $(this).show();
+                    $(this).next().show();
+                }
+            });
+    }
+    </script>
+    <div id="main">
+    <div id="first">
+        <input type="checkbox" id="RN" checked onchange="promena()">RN
+        <input type="checkbox" id="RM" checked onchange="promena()">RM
+        <br>
+        <input type="checkbox" id="sem1" checked onchange="promena()">1. Semestar
+        <input type="checkbox" id="sem2" checked onchange="promena()">2. Semestar
+        <input type="checkbox" id="sem3" checked onchange="promena()">3. Semestar
+        <input type="checkbox" id="sem4" checked onchange="promena()">4. Semestar
+        <br>
+        <input type="checkbox" id="sem5" checked onchange="promena()">5. Semestar
+        <input type="checkbox" id="sem6" checked onchange="promena()">6. Semestar
+        <input type="checkbox" id="sem7" checked onchange="promena()">7. Semestar
+        <input type="checkbox" id="sem8" checked onchange="promena()">8. Semestar
+        <br>
+        <div id="grupe">
+        {% for izbornaGrupa in izborneGrupe %}
+            <a id="{{izbornaGrupa.oznaka_grupe}}" href="{% url 'changeGroup' izbornaGrupa.oznaka_grupe %}">{{izbornaGrupa.oznaka_grupe}}</a>
+            <br/>
+        {% endfor %}
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+{% endblock %}

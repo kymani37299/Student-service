@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista grupa</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="main">
+    <div id="first">
+        <h1>Spisak studenata za grupu {{oznaka_grupe}} :</h1>
+        <br/>
+        {% for key, value in studenti.items %}
+            {% ifnotequal value '' %}
+            <a href="{{value}}">{{key}}</a>
+            {% else %}
+            {{key}}
+            {% endifnotequal %}
+            <br/>
+        {% endfor %}
+    </div>
+    </div>
+</body>
+</html>

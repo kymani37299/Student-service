@@ -1,0 +1,161 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="naslov">
+        Servis
+    </title>
+    <style>
+
+        .row {
+            display: flex;
+            text-align :center;
+        }
+
+        .obavestenje {
+            padding:0.01em 16px;
+            box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+            color:#000!important;
+            background-color:#fff!important;
+            border-radius:4px;
+            margin:16px!important;
+            text-align: center;
+        }
+        .obavestenje:after,.obavestenje:before{
+            content:"";
+            display:table;
+            clear:both;
+        }
+        .lajna{
+            border: 0;
+            height: 1px!important;
+            background: #333;
+        }
+        .lajna:after,.lajna:before {
+            content:"";
+            display:table;
+            clear:both;
+        }
+
+        .obavestenjeTime {
+            float:right!important;
+            opacity:0.60;
+        }
+
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="column80">
+        <table id="raspored" class="display" width="100%"></table>
+
+        <div class="row">
+            <div id="grupeFilter" class="column33"><b>Grupe</b><br>
+            </div>
+            <div id="nastavniciFilter" class="column33"><b>Nastavnici</b><br>
+            </div>
+            <div id="ucionicaFilter" class="column33"><b>Ucionica</b><br>
+            </div>
+        </div>
+    </div>
+    <div id="obavestenja" class="column20">
+
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+<script type='text/javascript'>
+
+    function filter(filt){
+        $('#raspored').DataTable().search( filt );
+        $('#raspored').DataTable().order([[ 4, 'asc' ], [ 5, 'asc' ]]).draw();
+        $('html, body').animate({ scrollTop: 0 }, 'fast');
+    }
+
+    $(document).ready(function() {
+        var dataSet = {{raspored|safe}};
+        $('#raspored').DataTable( {
+        data: dataSet,
+        columns: [
+            { title: "Predmet" },
+            { title: "Tip" },
+            { title: "Nastavnik" },
+            { title: "Grupe" },
+            { title: "Dan" },
+            { title: "Termin" },
+            { title: "Ucionica" }
+        ]
+        });
+
+        var grupe = {{grupe|safe}};
+        for(var key in grupe) {
+            var link = document.createElement('a');
+            link.setAttribute('href', 'javascript:void(0)');
+            link.setAttribute('onclick', "filter('" + grupe[key] +"');");
+            link.innerHTML = grupe[key];
+            $('#grupeFilter').append(link);
+            $('#grupeFilter').append("<br>");
+        }
+
+        var nastavnici = {{nastavnici|safe}};
+        for(var key in nastavnici) {
+            var link = document.createElement('a');
+            link.setAttribute('href', 'javascript:void(0)');
+            link.setAttribute('onclick', "filter('" + nastavnici[key] +"');");
+            link.innerHTML = nastavnici[key];
+            $('#nastavniciFilter').append(link);
+            $('#nastavniciFilter').append("<br>");
+        }
+
+        var ucionice = {{ucionice|safe}};
+        for(var key in ucionice) {
+            var link = document.createElement('a');
+            link.setAttribute('href', 'javascript:void(0)');
+            link.setAttribute('onclick', "filter('" + ucionice[key] +"');");
+            link.innerHTML = ucionice[key];
+            $('#ucionicaFilter').append(link);
+            $('#ucionicaFilter').append("<br>");
+        }
+
+        var obavestenja = {{obavestenja|safe}}
+        for(var key in obavestenja)
+        {
+            var obavestenje = obavestenja[key];
+            $('#obavestenja').append("<br>");
+            var okvir = document.createElement('div');
+            okvir.setAttribute('class', 'obavestenje');
+            var datum = document.createElement('span');
+            datum.setAttribute('class', 'obavestenjeTime');
+            datum.innerHTML = obavestenje[1];
+            var naslov = document.createElement('h1');
+            naslov.innerHTML = obavestenje[0];
+            var linija = document.createElement('hr');
+            linija.setAttribute('class', 'lajna');
+            var tekst = document.createElement('p');
+            tekst.innerHTML = obavestenje[2];
+            link.set
+            $(okvir).append(datum);
+            $(okvir).append("<br>");
+            $(okvir).append(naslov);
+            $(okvir).append("<br>");
+            $(okvir).append(linija);
+            $(okvir).append(tekst);
+            if(obavestenje[3] != '') {
+                var link = document.createElement('a');
+                link.setAttribute('href', obavestenje[3]);
+                link.innerHTML = obavestenje[3];
+                $(okvir).append("<br>");
+                $(okvir).append(link);
+            }
+            $('#obavestenja').append("<br>");
+            $('#obavestenja').append(okvir);
+        }
+    });
+</script>
+</body>
+</html>
+{% endblock %}

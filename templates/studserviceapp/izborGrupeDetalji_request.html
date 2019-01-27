@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Izbor grupe {{ime}} {{prezime}}</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="main">
+    <div id="first">
+	<h1> Izbor grupe detalji</h1>
+		<label>Indeks:</label>
+		<label>{{indeks}}</label>
+		<br>
+		<br>
+		<label> Ime: </label>
+		<label>{{ime}}</label>
+		<br>
+		<br>
+		<label> Prezime: </label>
+		<label>{{prezime}} </label>
+		<br>
+		<br>
+		<label> Broj do sada ukupno ostvarenih ESPB: </label>
+		<label> {{broj_ESPB}} </label>
+		<br>
+		<br>
+		<label> Skolske {{skolska_godina_pocetak}}/{{skolska_godina_kraj}} godine upisujem ESPB: </label>
+		<label> {{upisujem_ESPB}} </label>
+		<br>
+		<br>
+		<label> Broj do sada polozenih ispita: </label>
+		<label> {{br_polozenih_ispita}} </label>
+		<br>
+		<br>
+		<label> Semestar: </label>
+		<label> {{ semestar }} </label>
+		<br>
+		<br>
+		<label> Prvi put upisuje semestar: </label>
+		<label> {{ prvi_put_upisuje_semestar }}</label>
+		<br>
+		<br>
+		<label> Grupa koju student bira: </label>
+		<label> {{ izabrana_grupa }} </label>
+		<br>
+		<br>
+		<label> Nepolozeni predmeti iz predhodnih godina: </label>
+		<br>
+		<br>
+			<select id="predmeti_input" style="width: 400px" multiple>
+				{% for predmet in nepolozeni_predmeti %}
+				<option>{{predmet}}</option>
+				{% endfor %}
+			</select>
+		<br>
+		<br>
+		<label> Nacin placanja skolarine: </label>
+		<label> {{nacin_pacanja_skolarine}}</label>
+    </div>
+    </div>
+</body>
+</html>

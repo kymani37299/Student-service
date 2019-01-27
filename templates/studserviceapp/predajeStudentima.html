@@ -1,0 +1,26 @@
+{% extends 'studserviceapp/navbar.html' %}
+{% block navbarcontent %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista grupa</title>
+	{% load static %}
+	<link href="{% static formStyle.css %}formStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="main">
+    <div id="first">
+        {% for key, value in predmeti.items %}
+            <h1>{{key}}:</h1>
+            <br/>
+            {% for grupa in value %}
+                <a href="{% url 'izbornaGrupaList' grupa.oznaka_grupe %}">{{grupa.oznaka_grupe}}</a>
+                <br/>
+            {% endfor %}
+        {% endfor %}
+    </div>
+    </div>
+</body>
+</html>
+{% endblock %}

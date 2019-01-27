@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neuspesno ubacivanje rasporeda</title>
+</head>
+<body>
+	<div class="Error_list">
+		{% for error in errors %}
+		{{error}} </br>
+		{% endfor %}
+	</div>
+	<p> Prepravite greske ovde ili prepravite u dokumentu pa uploadujte ponovo. </p>
+	<div class="Error_correct_form">
+		<form action="{% url 'do_submitRasporedPolaganja' %}" method="post">
+			{% csrf_token %}
+		<table>
+		{% for line in to_correct %}
+			<tr>
+				{% for key, value in line.items %}
+					<td>
+					{% if value %}
+						<input type="text" name="{{key}}[]" value="{{value}}" required />
+					{% else %}
+						<input type="text" name="{{key}}[]" required/>
+					{% endif %}
+					</td>
+			   {% endfor %}
+			</tr>
+		{% endfor %}
+		<table>
+		<input type="hidden" name="tip_rasporeda" value="{{ tip_rasporeda }}"/>
+		<input type="hidden" name="naziv_rasporeda" value="{{ naziv_rasporeda }}"/>
+		<input type="submit" />
+		<a href="/studserviceapp/submitRasporedPolaganja"> Vrati se </a>
+		</form>
+	</div>
+</body>
+</html>
